@@ -7,17 +7,20 @@ const router = express.Router();
 router.post(
   "/",
   catchAsync(async (req, res) => {
-    const { id, name, images, description, coordinates } = req.body;
+    const { id, name, locationImages, description, coordinates, address } =
+      req.body;
+
     const places = new Place({
       id,
       name,
-      images,
+      locationImages,
       description,
       coordinates,
+      address,
     });
     await places.save();
     res.send({
-      message:"장소 저장완료"
+      message: "장소 저장완료",
     });
   })
 );
@@ -25,11 +28,11 @@ router.post(
 router.get(
   "/",
   catchAsync(async (req, res) => {
-    const relatedPlaces = req.query.relatedPlaces
+    const relatedPlaces = req.query.relatedPlaces;
     const places = await Place.find({
-      _id:relatedPlaces
-    })
-    
+      _id: relatedPlaces,
+    });
+
     res.send(places);
   })
 );

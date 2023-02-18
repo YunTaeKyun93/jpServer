@@ -1,0 +1,358 @@
+{
+    "name": "시나노마치역 육교",
+    "locationImages": [
+        {
+            "imageUrl": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000790/img/ko/a0000790_parts_5863452665802.jpg?20200803114034&q=80"
+        },
+        {
+            "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAxNzAxMDVfMjk4/MDAxNDgzNjAxMTM2MDUx.7aZZU8m6J8Bx_h9wI4pIWY-g2cyyFq4hIFtp_oNr8x4g.CxUyR4uDu_dP8Ox-FFGX8Izh12qomKNASPAZQt9GZ9Ig.JPEG.ssilly75/P1350354.JPG?type=w800"
+        }
+    ],
+    "coordinates": {
+        "lat": "35.67958690648102",
+        "lng": "139.71973264422908"
+    },
+    "description": " JR 시나노마치역에서 도보 1분",
+    "address":"Minamimotomachi Shinjuku, Tokyo 160-0012 Japan"
+
+}
+
+{
+    "name": "국립 신미술관",
+    "locationImages": [
+        {
+            "imageUrl": "https://a1.cdn.japantravel.com/photo/45058-185558/738x902.6806640625!/tokyo-your-name-real-life-locations-185558.jpg" 
+                   },
+                   {
+                    imageUrl:"https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000790/img/ko/a0000790_parts_586346629361d.jpg?20200803114034&q=80&rw=686&rh=490"
+                   }
+    ],
+    "coordinates": {
+        "lat": "35.66545",
+        "lng": "139.72643"
+    },
+    "description": "
+노기자카 역
+･ 도쿄 지하철 지요다선
+6 출구
+도보 1분",
+    "adrress" :'7-22-2, Roppongi, Minato-ku, Tokyo, 106-8558'
+
+}
+
+{
+    "name": "스가 신사",
+    "locationImages": [
+         {
+                    imageUrl:"https://a1.cdn.japantravel.com/photo/45058-185565/738x916.734375!/tokyo-your-name-real-life-locations-185565.jpg"
+                   },
+        {
+            "imageUrl": "https://img.insight.co.kr/static/2017/01/05/700/2D60D111LDMB8C076L09.jpg" 
+                   },
+                  {
+                    imageUrl:'https://en.pimg.jp/055/354/770/1/55354770.jpg'
+                   }
+    ],
+    "coordinates": {
+        "lat": "35.68550",
+        "lng": "139.72248"
+    },
+    "description": "요츠야산초메역에서 도보 5분",
+    "adrress" :"5-banchi Sugacho, Shinjuku City, Tokyo 160-0018
+"
+
+}
+
+
+{
+    "name": "신주쿠 경찰서 뒤 교차로",
+    "locationImages": [
+         {
+                    imageUrl:"https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000790/img/ko/a0000790_parts_586347471f8b7.jpg?20200803114034&q=80"
+                   },
+        {
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyNfE6DlbPTe4UxCB1s_-lQFWjcbYlS3-4Q&usqp=CAU" 
+                   },
+                  {
+                    imageUrl:'https://thumb.photo-ac.com/55/55406c4b5bb8eab7f3b9dbe5ab615e2a_t.jpeg'
+                   }
+    ],
+    "coordinates": {
+        "lat": "35.69270",
+        "lng": "139.69449"
+    },
+    "description": "신주쿠 경찰서 후문 도보 1분",
+    "adrress" :'6 Chome-5 Nishishinjuku, Shinjuku-ku, Tōkyō-to 160-0023, Japan
+'
+
+}
+
+{
+    "name": "라뒤레 신주쿠 점",
+    "locationImages": [
+         {
+                    imageUrl:"https://img.insight.co.kr/static/2017/12/20/700/qlxs19b4h52e2831e833.jpg"
+                   },
+        {
+            "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAxNzAxMDRfOTkg/MDAxNDgzNTEwNTg0NDc5.9nCBu72I2M8fccwRKN2jZJdIRZXyUT9lp4VU48YR4q0g.Bv5RJZj6q765j75yP4IXZZG3kaMCpBKnWV0ZadhPFEcg.JPEG.ssilly75/cats.jpg?type=w800" 
+                   },
+                
+    ],
+    "coordinates": {
+        
+        "lat": "35.6899348303462",
+        "lng": "139.700808"
+    },
+    "description": "신주쿠역 서쪽 출구 앞",
+    "adrress" :'Lumine 2, 1F, 3 Chome-38-2 Shinjuku, Shinjuku City, Tokyo 160-0022 JAPAN
+
+
+}
+
+
+// 언어의 정원
+
+
+{
+    "name": "신주쿠 중앙공원",
+    "locationImages": [
+         {
+                    imageUrl:"https://postfiles.pstatic.net/MjAxOTA2MjFfMTcx/MDAxNTYxMTIyMzEwNjIx.BxG8ESH5LloPfncgzACvNZ3PlGXefCTBSHamZyQZZg8g.5IAu2bALIQDWBnkXX1r_DdBPrwHwqkLkooVpHxWM0Bsg.JPEG.konga07/20190620_101349.jpg?type=w580"
+                   },
+        {
+            "imageUrl": "https://postfiles.pstatic.net/MjAxOTA2MjFfMjA2/MDAxNTYxMTIyNDIyNjMy.NGKDdzVvBVeed2t-elP63WJWKf80gogh8HGv0NIY_QIg.vqb0Pr3U22DWT5yc1et-KXVRIDuitB2qA9ay4bTbuU4g.JPEG.konga07/20190620_102449.jpg?type=w580" 
+                   },
+                   {"imageUrl":"https://postfiles.pstatic.net/MjAxOTA2MjFfMTI2/MDAxNTYxMTIyNTcwODQ1.RbJ7qhPlZRwU0guvwBGcgTVdmUAXQAbPMQYO0ZmjACgg.5x3rudAJD2aULgY4_2U5p_FbL-qEbVYhnDxhzg0YyLQg.JPEG.konga07/20190620_105018.jpg?type=w580"}
+                
+    ],
+    "coordinates": {
+        
+        "lat": "35.69024380761661",
+        "lng": "139.69006087718984"
+    },
+    "description": "도초마에역오에도선A5 출구도보 1분",
+    "adrress" :"2-11, Nishishinjuku, Shinjuku 160-0023, Tokyo Prefecture"
+
+
+}
+//
+{
+    "anime" : "63eeda5e1cbd07c64b1136da",
+    "place" :"63f0fd7c2575fc9ec1e31c2c",
+    "relatedPlaceImage": [
+         {
+                    "imageUrl":""}
+        
+    ],
+
+}
+
+//문호 스트레이독스
+
+
+{
+    "name": "요코하마 코스모월드",
+    "locationImages": [
+         {
+                    "imageUrl":"https://postfiles.pstatic.net/MjAxOTA3MTNfMTYx/MDAxNTYzMDI0MzQ3NDQz.s5bE7lO5188djZgHMKmqx_l_4UvnmHBp25sXa4BudiYg.eBPjYFdeZOSkFe-vnGWMIX5xJ6O5LrXKWSgmNb9y3J4g.JPEG.daystar0725/IMG_7285.JPG?type=w966"}
+        
+            
+    ],
+    "coordinates": {
+
+        "lat": "35.45508620442709",
+        "lng": "139.6369548403451"
+    },
+    "description": "미나토미라이선 미나토미라이역 도보2분",
+    "adrress" :"2-chōme-8-1 Shinkō, Naka Ward, Yokohama, Kanagawa 231-000"
+
+
+}
+
+
+//초속 5센티미터 
+
+
+{
+    "name": "산구바시 공원 언덕",
+    "locationImages": [
+         {
+                    "imageUrl":"https://mblogthumb-phinf.pstatic.net/20120701_272/hoon9084_1341124344896qcPGd_JPEG/2.jpg?type=w2"},
+                     {
+                    "imageUrl":"https://www.etoland.co.kr/data/mw.cheditor/160619/2c4b84d0a37ac56af819fbea01eb36e0_rjhN8ajSqgpnBCLT3tvaRdqlAsw9b.JPG"}
+        
+            
+    ],
+    "coordinates": {
+
+        "lat": "35.679194",
+        "lng": "139.692222"
+    },
+    "description": "산구바시역 도보 5분",
+    "adrress" :"4 Chome-4-2 Yoyogi, Shibuya City, Tokyo 151-0053 Japan"
+
+
+}
+
+{
+    "name": "산구바시 3호 건널목",
+    "locationImages": [
+         {
+                    "imageUrl":"https://postfiles.pstatic.net/MjAxOTA3MTNfMTYx/MDAxNTYzMDI0MzQ3NDQz.s5bE7lO5188djZgHMKmqx_l_4UvnmHBp25sXa4BudiYg.eBPjYFdeZOSkFe-vnGWMIX5xJ6O5LrXKWSgmNb9y3J4g.JPEG.daystar0725/IMG_7285.JPG?type=w966"},
+                    {
+                    "imageUrl":"https://mblogthumb-phinf.pstatic.net/20120701_243/hoon9084_1341124353262aMIKD_JPEG/37.jpg?type=w2
+"}
+        
+            
+    ],
+    "coordinates": {
+
+        "lat": "35.677694",
+        "lng": "139.692972"
+    },
+    "description": "미나토미라이선 미나토미라이역 도보2분",
+    "adrress" :"4 Chome-8-1 Yoyogi, Shibuya City, Tokyo 151-0053 Japan"
+
+
+}
+
+{
+    "name": "요요기-하치만역과 산구바시역 사이 건널목",
+    "locationImages": [
+         {
+                    "imageUrl":"https://www.etoland.co.kr/data/mw.cheditor/160619/2c4b84d0a37ac56af819fbea01eb36e0_eooJ7lGD179Mgq62Zpu4d3hHXaQJc.JPG"}
+        ,
+                 {
+                    "imageUrl":"https://www.etoland.co.kr/data/mw.cheditor/160619/2c4b84d0a37ac56af819fbea01eb36e0_qhzHNnxDiUTaTRzcjRs14y6aHvn.JPG"}
+            
+    ],
+    "coordinates": {
+
+        "lat": "35.67553036508964",
+        "lng": "139.6918353976322"
+    },
+    "description": "산구바시역 도보 5분",
+    "adrress" :"5-chōme-58-7 Yoyogi, Shibuya City, Tokyo 151-0053 Japan"
+
+
+}
+
+
+//날씨의 아이
+
+{
+    "name": "맥도날드 세이부신주쿠역 앞점",
+    "locationImages": [
+         {
+                    "imageUrl":"https://img.extmovie.com/files/attach/images/135/740/717/055/d91761ffe43a4e50d54734150a21111e.jpg"}
+        ,
+                 
+            
+    ],
+    "coordinates": {
+
+        "lat": "35.6942478035963",
+        "lng": "139.7005953762944"
+    },
+    "description": "세이부신주쿠역 도보 5분",
+    "adrress" : "1 Chome-24-1 Kabukicho, Shinjuku City, Tokyo 160-0021 일본"
+
+
+}
+
+
+{
+    "name": "코엔지 히카와 신사",
+    "locationImages": [
+         {
+                    "imageUrl":"https://mblogthumb-phinf.pstatic.net/MjAxOTA5MjlfNDYg/MDAxNTY5NzU2NjM3Njc4.li5nzgEpFtbeAskCRurql6yTp_Ml3f_HQaTk4dhy154g.4rQ6xY601yCQ-31TAIKKeCjRJJZvjvkanycPgIGR-dIg.PNG.uvegotpress/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2019-09-29_%EC%98%A4%ED%9B%84_8.18.05.png?type=w800"},
+                    {
+                        "imageUrl":"https://blogfiles.pstatic.net/MjAxOTA3MjFfMTQ0/MDAxNTYzNjgzMzgxMTQz.rcYn3ssjYvPeopXhyi0KktD1zqF92JErfOWQMV8tbl8g.hiTPDS4-0W6pcl_ursM4-7RQJM6xiq_f1o4tpZ6UK-Ig.JPEG.kdh871211/006-1.jpg?type=w2s"
+                    }
+        ,
+                 
+            
+    ],
+    "coordinates": {
+        "lat": "35.70473568900426",
+        "lng": "139.65114689982937"
+    },
+    "description": "고엔지역 5분거리",
+    "adrress" : "日本、〒166-0003 東京都杉並区高円寺南４丁目４４−１９ 氷川神社"
+
+
+}
+
+
+{
+    "name": "타바타역 울타리길",
+    "locationImages": [
+         {
+                    "imageUrl":"https://mblogthumb-phinf.pstatic.net/MjAxOTA5MjlfMTg2/MDAxNTY5NzU3OTg3MzI3._QVcilHtN0c6Z3SGG2HmMokAeaToaGp2i-UCKN3zFPcg.uyNdCjiWaJFgy4y8H-a_szS8Buje2bychYsJNYpz4aYg.JPEG.uvegotpress/tabata.jpg?type=w800"}
+                  
+        
+                 
+            
+    ],
+    "coordinates": {
+        "lat": "35.7367109335925",
+        "lng": "139.76197158707453"
+    },
+    "description": "타바타역 남쪽 출구",
+    "adrress" : "日本、〒114-0013 東京都北区東田端１丁目１７"
+
+
+}
+
+
+
+{
+    "name": "롯폰기힐즈 전망대 스카이데크",
+    "locationImages": [
+         {
+                    "imageUrl":"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1544,h_1080,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xuu1orvwlamgvstsyfxe/%EB%A1%AF%ED%8F%B0%EA%B8%B0%ED%9E%90%EC%A6%88%EB%8F%84%EC%BF%84%EC%8B%9C%ED%8B%B0%EB%B7%B0%EC%A0%84%EB%A7%9D%EB%8C%80%ED%8B%B0%EC%BC%93-%ED%81%B4%EB%A3%A9KLOOK%ED%95%9C%EA%B5%AD.jpg"},
+                    {
+                        "imageUrl":"https://img.extmovie.com/files/attach/images/135/740/717/055/3e29d60154c60912f59f637abfc659ec.jpg"
+                    }
+                  
+        
+                 
+            
+    ],
+    "coordinates": {
+       
+        "lat": "35.66028040944833",
+        "lng": "139.72926924232823"
+    },
+    "description": " ",
+    "adrress" : "Japan 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome−10−1, Roppongi Hills Mori Tower, 52階"
+
+
+}
+
+
+
+
+{
+    "name": "오다이바 해변공원 전망대",
+    "locationImages": [
+         {
+                    "imageUrl":"https://img.extmovie.com/files/attach/images/135/740/717/055/09d16a31a9a75e46fa450e19c2580eaa.jpg"},
+                    {
+                        "imageUrl":"https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/02/lj0002330/lj0002330_56ebfab54c5e4_main.jpg?20230123133614&q=80"
+                    }
+                  
+        
+                 
+            
+    ],
+    "coordinates": {
+ 
+        "lat": "35.627599172590784",
+        "lng": "139.77144125753264"
+    },
+    "description": " ",
+    "adrress" : "Japan 〒135-0091 Tokyo, Minato City, Daiba, 1 Chome−4, お台場海浜公園"
+
+
+}
