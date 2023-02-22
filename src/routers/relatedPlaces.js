@@ -48,8 +48,7 @@ router.post(
   })
 );
 
-router.get(
-  "/:id",
+router.get("/:id",
   catchAsync(async (req, res) => {
     const place = req.params.id;
     const relatedPlace = await RelatedPlace.findOne({

@@ -25,7 +25,7 @@ router.post(
 router.get(
   "/",
   catchAsync(async (req, res) => {
-    const relatedPlaces = req.query.relatedPlaces
+    const relatedPlaces = req.query.placeId;
     const places = await Place.find({
       _id:relatedPlaces
     })
