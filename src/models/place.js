@@ -6,11 +6,13 @@ const placeSchema = new mongoose.Schema(
   {
     name: { type: String, require: true },
     locationImages: [imagesSchema],
+    coordinates: coordinatesSchema,
+
     description: { type: String },
-    coordinates: coordinatesSchema
+    address: { type: String },
   },
   {
-    timestamps: true
+    timestamps: true,
   }
 );
 const Place = mongoose.model("place", placeSchema);

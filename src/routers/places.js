@@ -13,11 +13,11 @@ router.post(
       name,
       images,
       description,
-      coordinates,
+      coordinates
     });
     await places.save();
     res.send({
-      message:"장소 저장완료"
+      message: "장소 저장완료"
     });
   })
 );
@@ -25,11 +25,11 @@ router.post(
 router.get(
   "/",
   catchAsync(async (req, res) => {
-    const relatedPlaces = req.query.placeId;
+    const placeId = req.query.placeId;
+    console.log(placeId);
     const places = await Place.find({
-      _id:relatedPlaces
-    })
-    
+      place: placeId
+    });
     res.send(places);
   })
 );

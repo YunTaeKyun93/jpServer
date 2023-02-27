@@ -10,20 +10,19 @@ const router = express.Router();
 router.post(
   "/",
   catchAsync(async (req, res) => {
-    const { animeId, placeId, relatedPlaceImage } = req.body;
-    const animeID = mongoose.Types.ObjectId(animeId);
-    const placeID = mongoose.Types.ObjectId(placeId);
+    const { anime, place, relatedPlaceImage } = req.body;
+    const animeID = mongoose.Types.ObjectId(anime);
+    const placeID = mongoose.Types.ObjectId(place);
     // const anime = await Anime.findById({ animeID }).exec();
     // const place = await Place.findById({ placeID }).exec();
-    console.log("relatedPlaceImage", relatedPlaceImage);
-    const anime = await Anime.findById(animeID).exec();
-    const place = await Place.findById(placeID).exec();
+    const matchingAnime = await Anime.findById(animeID).exec();
+    const matchingPlace = await Place.findById(placeID).exec();
 
     const checkAnimeId =
-      (await Anime.countDocuments({ _id: mongoose.Types.ObjectId(animeId) })) ==
+      (await Anime.countDocuments({ _id:animeID })) ==
       1;
     const checkPlaceId =
-      (await Place.countDocuments({ _id: mongoose.Types.ObjectId(placeId) })) ==
+      (await Place.countDocuments({ _id: placeID })) ==
       1;
     if (!checkAnimeId) {
       res.status(401).send({
@@ -37,8 +36,8 @@ router.post(
     }
 
     const relatedPlace = new RelatedPlace({
-      anime: anime._id,
-      place: place._id,
+      anime: matchingAnime._id,
+      place: matchingPlace._id,
       relatedPlaceImage
     });
     await relatedPlace.save();
