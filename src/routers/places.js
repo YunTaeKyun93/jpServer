@@ -23,14 +23,19 @@ router.post(
 );
 
 router.get(
-  "/",
+  "/:id",
   catchAsync(async (req, res) => {
-    const placeId = req.query.placeId;
-    console.log(placeId);
-    const places = await Place.find({
-      place: placeId
-    });
-    res.send(places);
+    const placeId = req.params.id;
+    if (placeId == null) return;
+    const place = await Place.findById({ _id: placeId });
+
+    if (place == null) {
+      console.log("This is null!");
+      res.status(404).end();
+      return;
+    }
+
+    res.send(place);
   })
 );
 

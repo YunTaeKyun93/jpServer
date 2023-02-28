@@ -2,7 +2,6 @@ const express = require("express");
 const Anime = require("../models/anime");
 const catchAsync = require("../utils/catch-async");
 const RelatedPlace = require("../models/relatedPlace");
-const Place = require("../models/place");
 const router = express.Router();
 
 router.post(
@@ -22,7 +21,7 @@ router.post(
   })
 );
 const readRelatedPlaceIds = async (animeId) => {
-  // 관련있는 플레이스를 가져옴.
+
   const relatedPlaceRelations = await RelatedPlace.find({
     anime: animeId
   }).exec();

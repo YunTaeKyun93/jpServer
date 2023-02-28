@@ -13,17 +13,12 @@ router.post(
     const { anime, place, relatedPlaceImage } = req.body;
     const animeID = mongoose.Types.ObjectId(anime);
     const placeID = mongoose.Types.ObjectId(place);
-    // const anime = await Anime.findById({ animeID }).exec();
-    // const place = await Place.findById({ placeID }).exec();
+
     const matchingAnime = await Anime.findById(animeID).exec();
     const matchingPlace = await Place.findById(placeID).exec();
 
-    const checkAnimeId =
-      (await Anime.countDocuments({ _id:animeID })) ==
-      1;
-    const checkPlaceId =
-      (await Place.countDocuments({ _id: placeID })) ==
-      1;
+    const checkAnimeId = (await Anime.countDocuments({ _id: animeID })) == 1;
+    const checkPlaceId = (await Place.countDocuments({ _id: placeID })) == 1;
     if (!checkAnimeId) {
       res.status(401).send({
         errorMessage: "해당 ID를 가진 애니메이션을 찾을 수 없습니다"
@@ -47,11 +42,23 @@ router.post(
   })
 );
 
-router.get("/:id",
+router.get(
+  "/:id",
   catchAsync(async (req, res) => {
     const place = req.params.id;
     const relatedPlace = await RelatedPlace.findOne({
       place
+    }).exec();
+    res.send(relatedPlace);
+  })
+);
+
+router.get(
+  "/",
+  catchAsync(async (req, res) => {
+    const placeId = req.query.placeId;
+    const relatedPlace = await RelatedPlace.findOne({
+      place: placeId
     }).exec();
     res.send(relatedPlace);
   })
