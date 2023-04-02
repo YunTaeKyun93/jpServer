@@ -16,7 +16,7 @@ router.post(
     });
     await animeList.save();
     res.send({
-      message: "애니메이션 저장완료"
+      message: "애니메이션 저장완료!!"
     });
   })
 );
